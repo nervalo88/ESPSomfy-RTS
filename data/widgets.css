@@ -3,7 +3,8 @@
     max-width: 450px;
     padding: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background-color: #ffffff;
+    background-color: #121212;
+    color: #e0e0e0;
     user-select: none;
     position: relative;
     border-radius: 27px;
@@ -14,8 +15,8 @@
 
 .header-message {
     text-align: center;
-    background: gainsboro;
-    color: gray;
+    background: #333333;
+    color: #e0e0e0;
     margin-bottom: 7px;
     text-transform: uppercase;
     font-weight: bold;
@@ -28,6 +29,7 @@
     position:relative;
     margin-top:-14px;
     font-size:8pt;
+    color: #e0e0e0;
 }
 .inst-overlay {
     display: flex;
@@ -36,7 +38,7 @@
     align-content: flex-start;
     position: absolute;
     border-radius: 27px;
-    background: gray;
+    background: #333333;
     opacity: .9;
     padding: 10px;
     font-size: 20px;
@@ -44,7 +46,7 @@
     min-height: 100%;
     top: 0px;
     left: 0px;
-    color: white;
+    color: #e0e0e0;
 }
 #divLinkRepeat {
     border-radius:24px;
@@ -96,6 +98,7 @@
     display: inline-table;
     padding-left: 4px;
     padding-right: 4px;
+    color: #e0e0e0;
 }
     .linked-shade > div,
     .linked-shade > span,
@@ -110,6 +113,7 @@
         display: table-cell;
         padding-left: 4px;
         padding-right: 4px;
+        color: #e0e0e0;
     }
 .repeater-name,
 .linked-shade {
@@ -118,25 +122,33 @@
     display: inline-table;
     padding-left: 4px;
     padding-right: 4px;
+    color: #e0e0e0;
 }
 .repeater-name {
     text-align:left;
 }
-    .linked-shade > .linkedshade-name { width: 100%; }
+    .linked-shade > .linkedshade-name { 
+        width: 100%; 
+        color: #e0e0e0;
+    }
 .pin-digit {
     margin: 0 0.3rem;
     padding: 0.5rem;
-    border: 1px solid #00bcd4;
+    border: 1px solid #008394;
     border-radius:5px;
     width: 50px;
     height: 50px;
     text-align: center;
     font-size: 3rem;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
 }
 .login-content {
     display: block;
     padding: 25px;
     position: relative;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 #divSomfyButtons div.button-outline {
     margin-top: -10px;
@@ -295,16 +307,16 @@
 .room-draggable.over,
 .group-draggable.over,
 .shade-draggable.over {
-    border-top: solid 2px var(--shade-color, '#00bcd4');
+    border-top: solid 2px var(--shade-color, '#008394');
 }
 .room-selector {
     display: flex;
     flex-flow: column;
     font-size: 30px;
     margin-top: -10px;
-    color: var(--shade-color, gray);
+    color: var(--shade-color, #008394);
     font-weight:bold;
-    text-shadow:1px 1px 1px silver;
+    text-shadow:1px 1px 1px #333333;
     justify-content:center;
     flex-wrap:nowrap;
     flex-direction:row;
@@ -323,12 +335,13 @@
     position: absolute;
     min-width: 50%;
     font-size: 1.37rem;
-    border: solid 1px gray;
-    box-shadow: 4px 4px 4px gray;
+    border: solid 1px #444444;
+    box-shadow: 4px 4px 4px #000000;
     border-radius: 3px;
     padding-left: 1rem;
     padding-right:1rem;
-    background:white;
+    background:#2c2c2c;
+    color: #e0e0e0;
     z-index:1000;
     display:none;
     cursor:pointer;
@@ -336,11 +349,11 @@
 }
     .room-selector-list .room-row {
         cursor: pointer;
-        color: gray;
+        color: #e0e0e0;
         text-shadow:none;
     }
         .room-selector-list .room-row:hover {
-            color: var(--shade-color, gray);
+            color: var(--shade-color, #008394);
         }
 span.tabname-virtual-remote:after {
     content: "Virtual Remote";

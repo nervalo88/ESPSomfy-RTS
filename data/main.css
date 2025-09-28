@@ -1,15 +1,15 @@
 ﻿:root {
-    --shade-color: #00bcd4;
+    --shade-color: #008394;
 }
 * {
     box-sizing: border-box;
 }
 
 body {
-    color: #434343;
+    color: #e0e0e0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    background-color: #eeeeee;
+    background-color: #121212;
     box-sizing: border-box;
     margin-top: 77px;
 }
@@ -19,7 +19,7 @@ h1 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 0px;
-    color: #939393;
+    color: #b0b0b0;
     font-size: 28px;
 }
 hr {
@@ -28,12 +28,12 @@ hr {
 
 
 input[type="range"] {
-    accent-color: #00bcd4;
+    accent-color: #008394;
     outline:none;
 }
 
     input[type="range"]:active {
-        outline: dotted 1px silver;
+        outline: dotted 1px #555555;
     }
 
 
@@ -98,7 +98,7 @@ form {
 }
 
     .field-group1 > span {
-        color: #757575;
+        color: #aaaaaa;
         display: inline-block;
         margin: 0 0 5px 0;
         padding: 5px 0 0;
@@ -118,7 +118,7 @@ form {
     font-size:14px;
     margin-bottom:10px;
     margin-top:-10px;
-    color:#00bcd4;
+    color:#008394;
 }
 .field-group1 > div.field-group {
     display:inline-block;
@@ -134,28 +134,28 @@ input[type=text] {
     font-size: 15px;
     margin-bottom: 14px;
     -webkit-appearance: none;
-    background: #fafafa;
-    color: #636363;
+    background: #1e1e1e;
+    color: #dcdcdc;
     border: none;
     border-radius: 0;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #008394;
     background-color: transparent;
 }
 
 select {
     font-size: 15px;
     -webkit-appearance: none;
-    background: #fafafa;
-    color: #636363;
+    background: #1e1e1e;
+    color: #dcdcdc;
     border: none;
     border-radius: 0;
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #008394;
     background-color: transparent;
     margin-bottom:14px;
 }
@@ -171,7 +171,7 @@ select:focus,
 input[type=password]:focus,
 input[type=number]:focus,
 input[type=text]:focus {
-    border-color: #4C669F;
+    border-color: #6a88d5;
     outline: 0;
 }
 
@@ -186,7 +186,7 @@ input[type=text]:focus {
 
 button[type=button],
 button[type=submit] {
-    background: #00bcd4;
+    background: #008394;
     border: none;
     border-radius: 30px;
     color: #ffffff;
@@ -211,12 +211,12 @@ button:active {
 
 a {
     text-decoration: none;
-    color: #00bcd4;
+    color: #008394;
     position: fixed;
     right: 12px;
     font-size: 18px;
     bottom: 7px;
-    border-bottom: 1px solid #00bcd4;
+    border-bottom: 1px solid #008394;
 }
 div.info-message,
 div.prompt-message,
@@ -226,10 +226,10 @@ div.error-message {
     top:0px;
     width:100%;
     height:100%;
-    color:white;
+    color:#e0e0e0;
     display:flex;
     flex-wrap:wrap;
-    background:gray;
+    background:#333333;
     opacity:.9;
     padding:10px;
     align-items:center;
@@ -266,8 +266,8 @@ div.instructions {
     top: 0px;
     width: 100%;
     height: 100%;
-    color: white;
-    background: gray;
+    color: #e0e0e0;
+    background: #333333;
     opacity: .9;
     padding: 10px;
     display: flex;
@@ -291,8 +291,8 @@ div.instructions {
         margin-right: 5px;
         padding-bottom: 3px;
         display: inline-block;
-        border-bottom: 1px solid #00bcd4;
-        color: #00bcd4;
+        border-bottom: 1px solid #008394;
+        color: #008394;
         cursor:pointer;
     }
         .tab-container > span.selected {
@@ -306,45 +306,47 @@ div.instructions {
     width: calc(100% - 7px);
     margin-bottom: -1px;
     overflow: visible;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #444;
 }
     .subtab-container > span {
         display:inline-block;
-        background:white;
+        background:#252525;
         margin-bottom:-1px;
         padding-left: 10px;
         padding-right:10px;
         padding-top:5px;
         padding-bottom:5px;
-        border-top: 1px solid #ccc;
-        border-left: 1px solid #ccc;
-        border-right: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #444;
+        border-left: 1px solid #444;
+        border-right: 1px solid #444;
+        border-bottom: 1px solid #444;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         cursor:pointer;
-        background:ghostwhite;
     }
     .subtab-container > span.selected {
         border-bottom:none;
-        background:white;
+        background:#2c2c2c;
     }
 .subtab-content {
     display: block;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
     border-radius: 5px;
     padding: 25px;
     position: relative;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
 }
 fieldset {
     display: block;
-    border: 1px solid #ccc;
+    border: 1px solid #444;
     border-radius: 5px;
     padding: 25px;
     margin-top: 20px;
     position: relative;
+    background-color: transparent;
 }
 input[type=checkbox] {
     width:20px;
@@ -355,12 +357,14 @@ div.field-group1.inputPin {
     margin-top:-10px;
 }
 legend {
-    border: 1px solid #ccc;
+    border: 1px solid #444;
     border-bottom: 0;
     border-radius: 5px 5px 0 0;
     padding: 8px 18px 0;
     position: relative;
     top: -14px;
+    background-color: #2c2c2c;
+    color: #cccccc;
 }
 
 div.wifiSignal {
@@ -371,7 +375,7 @@ div.wifiSignal {
     padding-right: 10px;
 }
     #divAps div.wifiSignal:hover {
-        background: #00bcd4;
+        background: #008394;
         color: white;
     }
     div.wifiSignal > span {
@@ -391,7 +395,7 @@ span.ssid {
 }
 div.signal {
     margin: 0px;
-    color: lawngreen;
+    color: #7cfc00;
     height: 32px;
     width: 32px;
     float: right;
@@ -425,7 +429,7 @@ span.strength {
 .waveStrength-0 .wv2.wave,
 .waveStrength-0 .wv1.wave,
 .waveStrength-0 .wv0.wave {
-    border-top-color: #eee;
+    border-top-color: #333;
 }
 button.disabled {
     opacity:.3;
@@ -439,7 +443,7 @@ div.wait-overlay {
     align-items: center;
     top:0px;
     left:0px;
-    background:rgba(227, 226, 230, 0.46);
+    background:rgba(0, 0, 0, 0.6);
     cursor:no-drop;
     z-index:20000;
     border-radius:27px;
@@ -465,7 +469,7 @@ div.wait-overlay > .lds-roller {
             width: 7px;
             height: 7px;
             border-radius: 50%;
-            background: gray;
+            background: #adadad;
             margin: -4px 0 0 -4px;
         }
         .lds-roller div:nth-child(1) {
@@ -547,7 +551,7 @@ div.wait-overlay > .lds-roller {
     text-align:center;
 }
 .button-outline {
-    background-color: #00bcd4;
+    background-color: #008394;
     border-radius:50%;
     padding:3px 5px 5px 5px;
     margin-left:2px;
@@ -570,7 +574,7 @@ div.wait-overlay > .lds-roller {
 }
 .cfg-room {
     font-size:12px;
-    color:darkorange;
+    color:#FF8C00;
 }
 .somfyShade[data-roomid="0"] .cfg-room,
 .somfyGroup[data-roomid="0"] .cfg-room {
@@ -589,7 +593,7 @@ div.wait-overlay > .lds-roller {
 .progress-bar {
     display:block;
     width:100%;
-    background:white;
+    background:#444;
     border-radius:calc(1em / 2);
     height:1em;
     overflow:hidden;
@@ -604,7 +608,7 @@ div.wait-overlay > .lds-roller {
         font-size: .7em;
         vertical-align: middle;
         margin-top: .15em;
-        color: darkslategray;
+        color: #a9a9a9;
         top: 0;
         left: 0;
     }
@@ -612,7 +616,7 @@ div.wait-overlay > .lds-roller {
         content: "";
         width: var(--progress);
         text-align: right;
-        background-color: #00bcd4;
+        background-color: #008394;
         border-radius: .5em;
         height: 1em;
         display: block;
@@ -622,7 +626,7 @@ div.wait-overlay > .lds-roller {
 .somfyGroupCtl,
 .somfyShadeCtl {
     height:60px;
-    border-bottom:dotted 2px gainsboro;
+    border-bottom:dotted 2px #4a4a4a;
     position:relative;
     display:flex;
     vertical-align:middle;
@@ -659,7 +663,7 @@ div.wait-overlay > .lds-roller {
     .somfyGroupCtl .groupctl-name,
     .somfyShadeCtl .shadectl-name {
         font-size: 1.37em;
-        color: silver;
+        color: #cccccc;
         display: block;
         vertical-align: middle;
         white-space: nowrap;
@@ -667,14 +671,14 @@ div.wait-overlay > .lds-roller {
     }
     .somfyGroupCtl label,
     .somfyShadeCtl label {
-        color:silver;
+        color:#cccccc;
     }
     .somfyShadeCtl .shadectl-room,
     .somfyGroupCtl .groupctl-room {
         font-size:12px;
         margin-bottom:-3px;
         display:block;
-        color:darkorange;
+        color:#FF8C00;
     }
     .somfyGroupCtl[data-roomid="0"] .groupctl-room,
     .somfyShadeCtl[data-roomid="0"] .shadectl-room {
@@ -711,8 +715,8 @@ div.wait-overlay > .lds-roller {
 .shade-positioner {
     position: absolute;
     width: 100%;
-    background-color: oldlace;
-    color: gray;
+    background-color: #2a2a2a;
+    color: #bbbbbb;
     min-height: 60px;
     top: 0px;
     padding-left: 7px;
@@ -720,8 +724,8 @@ div.wait-overlay > .lds-roller {
     padding-bottom: 7px;
     z-index: 100;
     margin-top: -7px;
-    box-shadow: 4px 4px 4px gray;
-    border: solid 1px silver;
+    box-shadow: 4px 4px 4px #000;
+    border: solid 1px #555555;
     border-radius: 5px;
 }
 .shade-positioner .shade-name {
@@ -740,7 +744,7 @@ div.wait-overlay > .lds-roller {
     font-size:1em;
     margin-top:-3px;
     margin-left:27px;
-    color:gray;
+    color:#bbbbbb;
 }
     .shade-positioner label > span:last-child {
         float: right;
@@ -762,26 +766,26 @@ div.eth-setting-line label {
     display:inline-block;
     width: 90px;
     text-align:right;
-    color:mediumspringgreen;
+    color:#00FA9A;
 }
 div.frame-log {
-    background:gainsboro;
+    background:#333333;
 }
 div.frame-list {
     position:relative;
     width: 100%;
     max-height:357px;
-    background:white;
+    background:#1e1e1e;
     min-height:127px;
     overflow-y:auto;
-    border-bottom:solid 1px silver;
+    border-bottom:solid 1px #555555;
 }
 div.frame-header {
     border-top-left-radius:5px;
     border-top-right-radius:5px;
     position: relative;
     font-size: 12px;
-    background: #00bcd4;
+    background: #008394;
     width: 100%;
     color:white;
     padding-top:4px;
@@ -834,16 +838,16 @@ div.frame-header > span {
     }
 
 div.frame-list > div:nth-child(2n+1) {
-    background: beige;
+    background: #252525;
 }
 div.frame-row {
     font-size:12px;
     width:100%;
-    background:white;
+    background:#1e1e1e;
 }
 div.frame-row[data-valid="false"] {
     text-decoration:line-through;
-    color:red;
+    color:#ff5555;
 }
 div.frame-pulses {
     width:100%;

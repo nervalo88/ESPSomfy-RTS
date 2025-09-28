@@ -76,7 +76,7 @@ I spent some time reading about a myriad of topics but in the end the primary so
 Configuration of the Transceiver is done with the ELECHOUSE_CC1101 library which you will need to include in your project should you want to compile the code.  The one used for compiling this module can be found here. https://github.com/LSatan/SmartRC-CC1101-Driver-Lib
 
   
-## My Pinout -- ESP32S2
+## My Pinout - ESP32S2
 
 | Pin | Color | ESP32 | CC1001 Description |
 | :---: | :---: | :---: | :--- |
