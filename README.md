@@ -17,6 +17,7 @@ This software uses a couple of readily available hardware components.  These inc
 
 # ESPSomfy RTS Device Updates
 If you are here looking for how to install the latest software on your device. The wiki for instructions on how to do this is located here. [Updating ESPSomfy RTS](https://github.com/rstrouse/ESPSomfy-RTS/wiki/Updating-ESPSomfy-RTS)
+This fork is intended to use PlatformIO instead of arduino IDE.
 
 # Functionality
 After you get this up and running you will have the ability to interact with your shades using the built-in web interface, socket interface, and MQTT.  There is also a full [Home Assistant integration](https://github.com/rstrouse/ESPSomfy-RTS-HA) that can be installed through HACS that can control your shades remotely and provide automations.
