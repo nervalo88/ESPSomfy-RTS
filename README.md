@@ -76,7 +76,18 @@ I spent some time reading about a myriad of topics but in the end the primary so
 Configuration of the Transceiver is done with the ELECHOUSE_CC1101 library which you will need to include in your project should you want to compile the code.  The one used for compiling this module can be found here. https://github.com/LSatan/SmartRC-CC1101-Driver-Lib
 
   
- 
+## My Pinout -- ESP32S2
+
+| Pin | Color | ESP32 | CC1001 Description |
+| :---: | :---: | :---: | :--- |
+| 1 | Black | **GND** | Ground |
+| 2 | Red | **3v3** | VCC |
+| 3 | Green | GPIO3 | GDO0 - **TX Pin** |
+| 4 | Blue | GPIO6 | **CSN** |
+| 5 | Orange | GPIO7 | **SCK** |
+| 6 | Purple | GPIO9 | **MOSI** |
+| 7 | Brown | GPIO8 | **MISO** |
+| 8 | Yellow | GPIO4 | GDO2 - **RX Pin** |
 
 
 
